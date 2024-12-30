@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="431" PostSharpLinesOfCode="0" EnhancedTypesCount="2" SchemaVersion="1" PostSharpVersion="2024.1.7.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[PostSharp]PostSharp.Serialization.PSerializableAttribute">
+    <Instance Declaration="#2=T:[NoteApp]NoteApp.Common.Aspect.PreAuthorized" Id="83e03bd100008005">
+      <Target />
+    </Instance>
+  </Class>
+  <Class Class="#2">
+    <Instance Declaration="#3=M:[NoteApp]NoteApp.Controller.NoteController::GetAll()" Id="83e03bd1b0048009">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#4=Wrapped by advice(s) OnEntry" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#5=M:[NoteApp]NoteApp.Controller.NoteController::Add([NoteApp]NoteApp.Core.Domain.Request.NoteRequest)" Id="83e03bd1b004800a">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#6=M:[NoteApp]NoteApp.Controller.NoteController::Update(System.Int64, [NoteApp]NoteApp.Core.Domain.Request.NoteRequest)" Id="83e03bd1b004800b">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#4" Ordinal="2" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7=M:[NoteApp]NoteApp.Controller.NoteController::Delete(System.Int64)" Id="83e03bd1a607e00e">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#4" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#8=M:[NoteApp]NoteApp.Controller.NoteController::Get(System.Int64)" Id="83e03bd1b004800c">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#4" Ordinal="4" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#9=M:[NoteApp]NoteApp.Common.Aspect.PreAuthorized::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#10=2" Description="#11=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+</Symbols>

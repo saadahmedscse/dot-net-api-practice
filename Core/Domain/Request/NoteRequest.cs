@@ -1,4 +1,4 @@
-using NoteApp.Data.Entity;
+using NoteApp.Data.Entity.Note;
 
 namespace NoteApp.Core.Domain.Request;
 

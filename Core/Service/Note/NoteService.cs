@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 using NoteApp.Core.Domain.Request;
 using NoteApp.Core.Exception;
 using NoteApp.Data;
@@ -39,8 +38,8 @@ public class NoteService(AppDatabaseContext databaseContext) : BaseService, INot
         }
         
         if (body == null) throw new BadRequestException("Note body is null");
-        if (!body.Title.IsNullOrEmpty()) note.Title = body.Title;
-        if (!body.Content.IsNullOrEmpty()) note.Content = body.Content ?? "";
+        if (!IsNullOrBlank(body.Title)) note.Title = body.Title;
+        if (!IsNullOrBlank(body.Content)) note.Content = body.Content ?? "";
         note.UpdatedAt = DateTime.Now;
 
         try

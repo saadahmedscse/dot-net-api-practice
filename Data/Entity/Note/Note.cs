@@ -1,4 +1,4 @@
-namespace NoteApp.Data.Entity;
+namespace NoteApp.Data.Entity.Note;
 
 public class Note
 {

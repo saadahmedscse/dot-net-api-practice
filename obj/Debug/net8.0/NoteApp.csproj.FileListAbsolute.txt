@@ -131,8 +131,15 @@
 /Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/scopedcss/bundle/NoteApp.styles.css
 /Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/NoteApp.csproj.Up2Date
 /Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/NoteApp.dll
-/Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/refint/NoteApp.dll
 /Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/NoteApp.pdb
 /Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/NoteApp.genruntimeconfig.cache
-/Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/ref/NoteApp.dll
 /Users/vampire/RiderProjects/NoteApp/NoteApp/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/NoteApp.sourcelink.json
+/Users/vampire/RiderProjects/NoteApp/NoteApp/bin/Debug/net8.0/NoteApp.pssym
+/Users/vampire/RiderProjects/NoteApp/NoteApp/bin/Debug/net8.0/NoteApp.pspdb
+/Users/vampire/RiderProjects/NoteApp/NoteApp/bin/Debug/net8.0/PostSharp.dll
+/Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/PostSharp/touch
+/Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/PostSharp/AdditionalBuildDependencies.txt
+/Users/vampire/RiderProjects/NoteApp/NoteApp/obj/Debug/net8.0/PostSharp/postsharp.app.config
+/Users/vampire/RiderProjects/NoteApp/NoteApp/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/Users/vampire/RiderProjects/NoteApp/NoteApp/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
